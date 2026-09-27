@@ -5,6 +5,7 @@
 ## 当前任务
 
 - [x] 2026-09-27 准备 GitHub 面试展示副本：新增 README、素材说明与忽略规则；独立克隆保留远端 main 历史，不迁移 Plastic 历史或上传本机缓存／存档／ArtDrafts。修正引用测试中村庄禁遇敌的旧预期。
+- [x] GitHub `FuClive0903/JRPG` 的 `main` 已推送并核对：展示快照提交 `8deeac232990c5074e1d56bcf9036091ce91dbf1`。GitHub 仓库为独立展示副本，后续本地或 Plastic 修改不会自动同步过去。
 - 本次上传前验证：27 项战斗／背景、12 项暂停、8 项存档安全测试通过，四份场景／Prefab 引用检查通过；未进行 Unity Play Mode 或打包，不把此前演示入口及村庄变化标为实测通过。
 
 - [x] 2026-09-27 开启 Village_scene 的 Allow Random Encounters，保留 JSON 遇敌规则与默认敌队；仅修改场景开关，未改变布局或脚本。
