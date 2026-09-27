@@ -1,0 +1,22 @@
+{
+  "group_id": "38caf4d8-6b43-49a0-8d75-d1254bffbeea",
+  "objects": [
+    {
+      "id": "677a823b-11fc-47ce-adee-ccaf62051b92",
+      "name": "base",
+      "prompt": "A small ordinary villager's house for the SAME prosperous remote medieval mountain mining village as a gray-stone circular well with a charcoal tiled timber roof. Oblique high top-down 2D fantasy JRPG pixel art, front and right sides visible. Compact one-storey home, asymmetrical timber framing over cool gray stone lower walls, steep muted charcoal slate-and-ceramic tile gable roof with subtle Japanese eave curve, one simple wooden front door facing camera and two small shuttered windows, a little worn but cared for. Entire standalone building including full roof and base, no people, no scenery, no ground plane, no cast shadow, transparent background. Same restrained charcoal slate, cool masonry gray, weathered brown wood, faint moss accents, selective near-black outline, richly clustered readable pixels, no smooth painting.",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "directions": 1,
+      "view": "high top-down",
+      "rotations": {
+        "unknown": "rotations/A_small_ordinary_villager_s_ho.png"
+      },
+      "animations": {}
+    }
+  ],
+  "export_version": "1.1",
+  "export_date": "2026-09-27T07:51:16.494651"
+}

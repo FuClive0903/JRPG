@@ -1,0 +1,70 @@
+{
+  "levelRules": {
+    "maxLevel": 99,
+    "firstLevelExperience": 100,
+    "experienceIncreasePerLevel": 50,
+    "refillHealthAndManaOnLevelUp": false
+  },
+  "encounterRules": {
+    "distancePerStep": 1,
+    "safeSteps": 20,
+    "encounterChancePerStep": 0.5
+  },
+  "characters": [
+    {
+      "id": "player", "name": "Player", "startingLevel": 1,
+      "maxHealth": 100, "maxMana": 20, "attackPower": 30, "magicPower": 20, "speed": 10,
+      "growthPerLevel": { "maxHealth": 10, "maxMana": 2, "attackPower": 2, "magicPower": 2, "speed": 0 },
+      "skillIds": ["fire", "haste"]
+    },
+    {
+      "id": "ally", "name": "Ally", "startingLevel": 1,
+      "maxHealth": 80, "maxMana": 15, "attackPower": 30, "magicPower": 25, "speed": 12,
+      "growthPerLevel": { "maxHealth": 8, "maxMana": 2, "attackPower": 2, "magicPower": 3, "speed": 0 },
+      "skillIds": ["fire", "poison"]
+    },
+    {
+      "id": "healer", "name": "Healer", "startingLevel": 1,
+      "maxHealth": 60, "maxMana": 10, "attackPower": 30, "magicPower": 30, "speed": 8,
+      "growthPerLevel": { "maxHealth": 6, "maxMana": 3, "attackPower": 1, "magicPower": 4, "speed": 0 },
+      "skillIds": ["heal"]
+    },
+    {
+      "id": "goblin", "name": "哥布林",
+      "battleAppearance": "Battle/Appearances/GoblinBattleAppearance",
+      "startingLevel": 1, "experienceReward": 30,
+      "maxHealth": 70, "maxMana": 5, "attackPower": 5, "magicPower": 10, "speed": 9,
+      "drops": [
+        { "itemId": "goblin_dirty_pants", "chance": 1, "minCount": 1, "maxCount": 1 }
+      ]
+    },
+    {
+      "id": "malayan_tapir", "name": "马来貘",
+      "battleAppearance": "Battle/Appearances/TapirBattleAppearance",
+      "startingLevel": 1, "experienceReward": 30,
+      "maxHealth": 70, "maxMana": 5, "attackPower": 5, "magicPower": 10, "speed": 9,
+      "drops": []
+    }
+  ],
+  "skills": [
+    { "id": "fire", "name": "Fire", "effect": "Damage", "target": "EnemyOne", "power": 20, "manaCost": 5 },
+    { "id": "heal", "name": "Heal", "effect": "Heal", "target": "AllyOne", "power": 20, "manaCost": 4 },
+    { "id": "haste", "name": "Haste", "effect": "ApplyStatus", "target": "Self", "power": 0, "manaCost": 4, "statusId": "haste" },
+    { "id": "poison", "name": "Poison", "effect": "ApplyStatus", "target": "EnemyOne", "power": 0, "manaCost": 4, "statusId": "poison" }
+  ],
+  "items": [
+    { "id": "potion", "name": "Potion", "category": "Consumable", "usableInBattle": true, "effect": "Heal", "target": "AllyOne", "power": 30, "manaCost": 0 },
+    { "id": "goblin_dirty_pants", "name": "哥布林的脏裤子", "category": "Material", "usableInBattle": false }
+  ],
+  "statuses": [
+    { "id": "regen", "name": "Regen", "effect": "Heal", "timing": "TurnStart", "value": 5, "durationTurns": 3, "priority": 10, "category": "Buff", "iconText": "R" },
+    { "id": "poison", "name": "Poison", "effect": "Damage", "timing": "TurnStart", "value": 5, "durationTurns": 3, "priority": 20, "category": "Debuff", "iconText": "P" },
+    { "id": "stun", "name": "Stun", "effect": "SkipTurn", "timing": "BeforeAction", "value": 0, "durationTurns": 1, "priority": 30, "category": "Special", "iconText": "S" },
+    { "id": "haste", "name": "Haste", "effect": "SpeedMultiplier", "timing": "TurnDelay", "value": 1.5, "durationTurns": 3, "priority": 10, "category": "Buff", "iconText": "H" }
+  ],
+  "defaultPlayerParty": ["player", "ally", "healer"],
+  "defaultEnemyParty": ["malayan_tapir", "malayan_tapir", "malayan_tapir"],
+  "defaultInventory": [
+    { "itemId": "potion", "count": 3 }
+  ]
+}

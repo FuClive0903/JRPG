@@ -104,3 +104,25 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Local Plastic workspace, drafts and standalone test outputs
+/.plastic/
+/ignore.conf
+/hidden_changes.conf
+/ArtDrafts/
+**/obj/
+**/bin/
+/.codex/
+/.agents/
+
+# Local secrets, certificates and player progress
+.env
+.env.*
+*.pem
+*.pfx
+*.p12
+*.keystore
+save.json
+save.json.*
+save_slot_*.json
+save_slot_*.json.*

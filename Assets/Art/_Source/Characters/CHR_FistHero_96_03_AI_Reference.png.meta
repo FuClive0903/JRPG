@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 93a19361c288e8f4190290efe93bf103
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6033363068697376126
+    second: CHR_FistHero_96_03_AI_Reference_0
+  - first:
+      213: -9123466645912491813
+    second: CHR_FistHero_96_03_AI_Reference_1
+  - first:
+      213: 7585995186718166541
+    second: CHR_FistHero_96_03_AI_Reference_2
+  - first:
+      213: -7459560657107260736
+    second: CHR_FistHero_96_03_AI_Reference_3
+  - first:
+      213: 3554914761453798422
+    second: CHR_FistHero_96_03_AI_Reference_4
+  - first:
+      213: -8463745895891963055
+    second: CHR_FistHero_96_03_AI_Reference_5
+  - first:
+      213: -3932513044921191830
+    second: CHR_FistHero_96_03_AI_Reference_6
+  - first:
+      213: 7764731100599038323
+    second: CHR_FistHero_96_03_AI_Reference_7
+  - first:
+      213: 3336153747973296927
+    second: CHR_FistHero_96_03_AI_Reference_8
+  - first:
+      213: 1033687146092414227
+    second: CHR_FistHero_96_03_AI_Reference_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CHR_FistHero_96_03_AI_Reference_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1224
+        height: 1247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a05515140354ca0800000000000000
+      internalID: -6033363068697376126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_FistHero_96_03_AI_Reference_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 685
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8e24a7c6fe26180800000000000000
+      internalID: -9123466645912491813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_FistHero_96_03_AI_Reference_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 642
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ec8241e6ed64960800000000000000
+      internalID: 7585995186718166541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_FistHero_96_03_AI_Reference_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 595
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca64a4da115a7890800000000000000
+      internalID: -7459560657107260736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_FistHero_96_03_AI_Reference_4
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 551
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6140f3b0428955130800000000000000
+      internalID: 3554914761453798422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_FistHero_96_03_AI_Reference_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 383
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153703653fbba8a80800000000000000
+      internalID: -8463745895891963055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_FistHero_96_03_AI_Reference_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 351
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62f1e29838ec69c0800000000000000
+      internalID: -3932513044921191830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_FistHero_96_03_AI_Reference_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 358
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37132a3fbcdd1cb60800000000000000
+      internalID: 7764731100599038323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_FistHero_96_03_AI_Reference_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 288
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13590878266c4e20800000000000000
+      internalID: 3336153747973296927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_FistHero_96_03_AI_Reference_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 195
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315c9bf8bf4685e00800000000000000
+      internalID: 1033687146092414227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CHR_FistHero_96_03_AI_Reference_0: -6033363068697376126
+      CHR_FistHero_96_03_AI_Reference_1: -9123466645912491813
+      CHR_FistHero_96_03_AI_Reference_2: 7585995186718166541
+      CHR_FistHero_96_03_AI_Reference_3: -7459560657107260736
+      CHR_FistHero_96_03_AI_Reference_4: 3554914761453798422
+      CHR_FistHero_96_03_AI_Reference_5: -8463745895891963055
+      CHR_FistHero_96_03_AI_Reference_6: -3932513044921191830
+      CHR_FistHero_96_03_AI_Reference_7: 7764731100599038323
+      CHR_FistHero_96_03_AI_Reference_8: 3336153747973296927
+      CHR_FistHero_96_03_AI_Reference_9: 1033687146092414227
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
